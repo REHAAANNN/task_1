@@ -1,0 +1,98 @@
+.App{
+}
+.App1{
+  color: #f10f0f;
+  font-size: large;
+  font-style: italic;
+}
+.main-heading{
+  font-size: 48px;
+  margin-top: 30px;
+  color:#f10f0f;
+  background-color: white;
+  width: 35;
+  border: 4px solid maroon;
+
+}
+.sub-heading{
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color:#c21717
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+header {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+body {
+  background: linear-gradient(to bottom right, #ffe0e9, #ffd6d6);
+}
+
+.graph-container {
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  max-width: 900px;
+  width: 100%;
+}
+
+.dropdown-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
